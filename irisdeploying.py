@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1qV05yAi0iMNDCrya7TOu3lBiKpLKczxB
 """
 
-!pip install streamlit
+#!pip install streamlit
 import streamlit as st
 import pickle
 
@@ -62,6 +62,3 @@ if __name__ == "__main__":
 if st.button("Predict"):
     predict_species(Id,SepalLength,SepalWidth,PetalLength,PetalWidth)
 
-!pip freeze > requirements.txt
-
-streamlit run
