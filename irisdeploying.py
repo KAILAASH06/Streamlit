@@ -34,7 +34,7 @@ def get_PetalWidth():
     return PetalWidth
 
 def predict_species(id,sl,sw,pl,pw):
-    loaded_model = pickle.load(open('decision_tree_model(3).pkl','rb'))
+    loaded_model = pickle.load(open('decision_tree_model (3).pkl','rb'))
     new_data = [[float(id),float(sl),float(sw),float(pl),float(pw),]]
     prediction = loaded_model.predict(new_data)
     st.write("Prediction with new data: ")
