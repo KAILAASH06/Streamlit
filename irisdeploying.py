@@ -7,21 +7,21 @@ def get_Id():
     Id = st.text_input("Id of Iris")
     return Id
 
-def get_SepalLength():
-    SepalLength = st.text_input("SepalLength of Iris")
-    return SepalLength
+def get_Sepal_Length():
+    Sepal_Length = st.text_input("SepalLength of Iris")
+    return Sepal_Length
 
-def get_SepalWidth():
-    SepalWidth = st.text_input("SepalWidth of Iris")
-    return SepalWidth
+def get_Sepal_Width():
+    Sepal_Width = st.text_input("SepalWidth of Iris")
+    return Sepal_Width
 
-def get_PetalLength():
-    PetalLength = st.text_input("PetalLength")
-    return PetalLength
+def get_Petal_Length():
+    Petal_Length = st.text_input("PetalLength")
+    return Petal_Length
 
-def get_PetalWidth():
-    PetalWidth = st.text_input("PetalWidth of Iris")
-    return PetalWidth
+def get_Petal_Width():
+    Petal_Width = st.text_input("PetalWidth of Iris")
+    return Petal_Width
 
 def predict_species(id,sl,sw,pl,pw):
     loaded_model = pickle.load(open('decision_tree_model (3).pkl','rb'))
