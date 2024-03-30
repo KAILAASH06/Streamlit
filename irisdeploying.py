@@ -60,5 +60,5 @@ if __name__ == "__main__":
 
 
 if st.button("Predict"):
-    predict_species(Id,SepalLength,SepalWidth,PetalLength,PetalWidth)
+    predict_species(Id,Sepal_Length,Sepal_Width,Petal_Length,Petal_Width)
 
